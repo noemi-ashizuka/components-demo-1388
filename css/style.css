@@ -19,7 +19,7 @@ body {
   background-color: rgb(240,240,240);
 }
 h1, h2, h3 {
-  font-family: "Poppins", "sans-serif";
+  font-family: "Poppins", "Helvetica", "sans-serif";
 }
 
 .text-center {
