@@ -1,0 +1,14 @@
+.banner {
+  color: white;
+  padding: 120px 0;
+  text-shadow: 0 0 8px rgba(0,0,0,1);
+  text-align: left;
+}
+
+.banner h1 {
+  text-align: left;
+}
+
+.banner p {
+  margin-bottom: 24px;
+}

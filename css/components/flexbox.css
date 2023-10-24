@@ -1,0 +1,46 @@
+/* play around with flex-direction, justify-content and the height of container */
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /*flex-wrap: wrap-reverse; => this changes the cross axis, content wraps from the opposite side, think bottom right */
+  /*flex-wrap: wrap; */
+  align-items: flex-start;
+  /* align items on the cross axis */
+  /* in a row: if we use baseline we can align to the bottom line of the text inside the element. All the others are based on the center, top or bottom of the element itself */
+}
+
+#container div {
+  width: 100px;
+  height: 200px;
+  text-align: center;
+}
+
+#container2 {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /*flex-wrap: wrap-reverse; => this changes the cross axis, content wraps from the opposite side, think bottom right */
+  /*flex-wrap: wrap; */
+  align-items: center; /* Aligns the divs related to the text inside them, the text is aligned on the same line */
+}
+
+#container2 div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.item {
+  flex-grow: 1;
+}
